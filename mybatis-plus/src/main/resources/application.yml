@@ -1,0 +1,16 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: provider-dept
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name:  com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://39.104.158.18:3306/spring
+    dbcp2:
+      max-total: 5
+      min-idle: 2
+      max-idle: 2

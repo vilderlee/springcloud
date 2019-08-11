@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vilderlee.providerdept8001.dao.DeptDao">
+
+
+    <select id="findById" parameterType="long" resultType="com.vilderlee.api.entities.Dept">
+        select * from dept where deptno = #{deptno};
+    </select>
+
+
+    <select id="findAll" resultType="com.vilderlee.api.entities.Dept">
+        select * from dept;
+    </select>
+
+    <insert id="addDept" parameterType="com.vilderlee.api.entities.Dept">
+        INSERT INTO dept (dname,db_source) values (#{dname},DATABASE());
+    </insert>
+</mapper>

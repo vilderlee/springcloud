@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/api/pom.xml" />
+        <option value="$PROJECT_DIR$/provider-dept-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-plus/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-dept-80/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-7001/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-7002/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-7003/pom.xml" />
+        <option value="$PROJECT_DIR$/provider-dept-8002/pom.xml" />
+        <option value="$PROJECT_DIR$/provider-dept-8003/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-dept-feign-81/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/config-3344/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

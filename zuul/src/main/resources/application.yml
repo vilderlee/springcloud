@@ -1,0 +1,29 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: zuul-gateway
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7001.com:7001/eureka/,http://eureka7003.com:7003/eureka/
+
+  instance:
+    instance-id: zuul-gateway
+    prefer-ip-address: true
+
+info:
+  app.name: springcloud
+
+zuul:
+  routes:
+    #域名映射
+    dept:
+      path: /mydept/**
+      serviceId: provider-dept
+  ignored-services: "*"
+  prefix: /vilderlee
+
